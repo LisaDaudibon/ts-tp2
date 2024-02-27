@@ -1,4 +1,4 @@
-import { Music, Musician } from '../src/index';
+import { Music, Musician, Album } from '../src/index';
 describe('Musician', () => {
 
     it('Enum Music testing', () => {
@@ -19,4 +19,17 @@ describe('Musician', () => {
         expect(musician.toString).toBeDefined()
         expect(musician.toString()).toBe('Miles Davis')
     });
+
+    it('should add Album to the list of albums', () => {
+        const musician = new Musician('Miles', 'Davis', 89);
+        const al = new Album('Kind Of Blue');
+        const tutu = new Album('Tutu');
+
+        musician.addAlbum(al);
+        musician.addAlbum(tutu);
+
+        expect(musician.album).toHaveLength(2);
+
+
+    })
 });
