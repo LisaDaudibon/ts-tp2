@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "moduleResolution": "node", /* Allow Node.js CommonJS implementation */
+    "rootDir": "./src", /* Specify the root folder within your source files. */
+    "outDir": "./dist",
+    "strict": true, /* Enable all strict type-checking options. */
+  }
+}
