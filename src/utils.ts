@@ -1,3 +1,4 @@
+import log from "./log";
 
 export interface IElementToString{
     toString(): String;
@@ -5,6 +6,6 @@ export interface IElementToString{
 
 export function display<T extends IElementToString>(elements :T[]):void  {
     elements.forEach(element => {
-        console.log(element.toString())
+        log(element.toString())
     });
 }
