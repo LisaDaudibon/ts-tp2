@@ -1,4 +1,6 @@
-import { Music, Musician, Album } from '../src/index';
+import { Musician , Music} from '../src/musician';
+import { Album } from '../src/album';
+
 describe('Musician', () => {
 
     it('Enum Music testing', () => {

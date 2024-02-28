@@ -1,4 +1,6 @@
-import { Music, JazzMusician } from '../src/index';
+import { Music } from '../src/musician';
+import { JazzMusician } from '../src/jazzMusician';
+
 describe('JazzMusician', () => {
 
     it('properties testing', () => {

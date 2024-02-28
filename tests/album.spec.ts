@@ -1,4 +1,4 @@
-import { Album } from '../src/index';
+import { Album } from '../src/album';
 describe('Album', () => {
 
     it('Album properties testing', () => {

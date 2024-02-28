@@ -1,4 +1,9 @@
-import { Album, display, JazzMusician, Musician, RockStar } from '../src/index';
+import { Album } from '../src/album';
+import { display } from '../src/utils';
+import { JazzMusician } from '../src/jazzMusician';
+import { Musician} from '../src/musician';
+import { RockStar } from '../src/rockStar';
+
 describe('Album', () => {
 
     let spy: jest.SpyInstance;
