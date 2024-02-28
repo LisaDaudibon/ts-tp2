@@ -1,6 +1,9 @@
 export default {
     coverageProvider: "v8",
-    rootDir: "./tests",
+    collectCoverageFrom: [
+        "<rootDir>/src/**/*.ts"
+    ],
+    rootDir: ".",
     testEnvironment: "node",
     transform: {
         "^.+\\.tsx?$": "ts-jest",
